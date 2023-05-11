@@ -1,0 +1,27 @@
+django-admin startproject awesomeCart 
+python manage.py startapp shop
+python manage.py startapp blog
+python manage.py runserver
+
+--> csrf , models , shell, template inheritance , session storage and local storage used to add items in cart , 
+
+awesomeCart here is project 
+shop and blog are apps 
+
+1. add templates and static to apps 
+2. open settings.py of awesomeCart and add apps
+3. add all urls and views 
+4. add dir in settings.py of project 
+5. make views.py in project and add a home page 
+
+first making shop app
+1. add all urls and views 
+2. add models and register in admin.py of shop
+3. python manage.py makemigrations 
+   python manage.py migrate 
+4.create super user- python manage.py createsuperuser
+5. media directory 
+6. template inheritance 
+
+
+integrating paytm-
